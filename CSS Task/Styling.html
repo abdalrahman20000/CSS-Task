@@ -9,52 +9,58 @@
         h2{
             text-decoration: underline;
         }
-        .l1{
+        label{
             color: blue;
         }
-        .c-y{
-            color: #ffc600;
-        }
-        .c-r{
-            color: red;
-            /* display: inline-block; */
-        }
-        .ul-b{
-            color: blue;
-        }
-        .c-b{
+        div a{
+            color: rgb(20, 20, 179);
             background-color: yellow;
         }
+        span a{
+            color: #ffc600;
+            background-color: transparent;
+        }
+        div ul li {
+            color: blue;
+        }
+        li a{
+            color: red;
+            background-color: transparent;
+            /* display: inline-block; */
+        }
         
-
 
     </style>
 
 </head>
 <body>
     <h2>Have Fun While Styling !</h2>
-    <br><hr><br>
-    <div class="l1">Here is a text <a href="" class="c-y">With a link</a>.Let's do it !</div>
+    <hr><br>
+    <label for="">Here is a text <span><a href="">with a link</a></span>.Let's do it !</label>
     <br>
-    <div>We Have more <a href="" class="c-y">links </a>here ;</div>
     <br>
-    <div>Is this a (<a href="" class="c-b">links</a> ?)here ;</div>
+    <div>We have more <span><a href="">links</a></span> here ;</div>
     <br>
-    <div class="List">We Have a list </div>
+    <div>Is this a (<a href="">link</a> ?).</div>
+    <br>
+    <div>We have a list </div>
     <ul>
-        <li><strong>Please,<a href="" class="c-r">Click Me!</a></strong></li>
+        <li><strong>Please, <a href="">Click Me!</a></strong></li>
+        <br>
         <li>Can You ? let's count 
-            <ul class="ul-b">
-                <li><strong>111</strong></li>
-                <li>222 <a href="" class="c-r">Another Link</a></li>
-                <li>333
-                    <ul class="ul-b" style="list-style: none;" >
-                        <li>red</li>
-                        <li>green</li>
-                        <li>blue <a href="" class="c-r">Color Links</a></li>
-                    </ul>
-                </li>
-            </ul>
+            <div>
+                <ul>
+                    <li><strong>111</strong></li>
+                    <li>222 <a href="">Another Link</a></li>
+                    <li>333
+                        <ul style="list-style: none;" >
+                            <li><strong>red</strong></li>
+                            <li>green</li>
+                            <li>blue <a href="">Colors Links</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </li>
         <br><br>
         <li>That's Enough !</li>
